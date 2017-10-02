@@ -1,0 +1,72 @@
+
+.profile-img {
+  width:200px;
+  border-radius: 50%;
+}
+
+.img-portfolio {
+  width:300px;
+
+}
+
+p, h1, h2 {
+  padding-left: 30px;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+
+ul {
+  font-weight: bold;
+}
+
+h2 {
+  color: DimGrey;
+  font-family:fantasy;
+}
+
+.port-header {
+  color: DarkSeaGreen;
+  font-family: fantasy;
+  font-size: 75px;
+  text-align: center;
+  padding-right: 5px;
+
+}
+
+.row {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .img-portfolio{ width: 300px; }
+  #row { padding: 30px;}
+}
+
+
+.footer-header{
+    font-family: 'Raleway', sans-serif;
+    font-family:fantasy;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 75px;
+    color: Dimgrey;
+}
+
+.btn-social {
+  font-size: 50px;
+}
+
+.btn-social {
+    margin: 10px;
+    text-align: center;
+    border: 3px solid DimGrey;
+    border-radius: 50%;
+    color: DarkSeaGreen;
+}
